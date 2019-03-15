@@ -135,7 +135,9 @@ img.ytwe {
     position: relative;
     width: auto;
     height: auto;
+    animation: bounce;
 }
+
 .top {
     margin-top: -32px;
     position: relative;
