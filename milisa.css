@@ -16,7 +16,8 @@ body {
     padding: 2em 2em 4em;
     width: auto;
     height: auto;
-    background-image: url(https://randart.ru/art/JD99/wallpapers?h=1080&w=1920&q=100);
+    backgrou/nd-image: url(https://randart.ru/art/JD99/wallpapers?h=1080&w=1920&q=100);
+    background-image: url(img/skybg.jpg);
 }
 
 h1, h2, h3, h4, h5, h6 {
