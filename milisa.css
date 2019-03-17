@@ -124,7 +124,7 @@ footer {
     text-align: center;
     line-height: 2em;
     background: #ffffff00;
-    width: 1241px;
+    max-width: 1300px;
     margin: auto;
     border-radius: 3px;
     color: white;
