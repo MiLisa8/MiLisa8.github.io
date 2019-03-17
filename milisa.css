@@ -85,7 +85,6 @@ div.avatar {
 #navbar {
     margin: auto;
     padding: auto;
-    border: 1px solid #0066FF;
     text-align: center;
     background-color: green;
     border-top-left-radius: 25px;
@@ -221,13 +220,12 @@ img.ytmilisa {
 
 /* Видео */
 .videos {
-    text-align: center;
-    display: block;
     width: 1241px;
     margin: auto;
-    padding: 13px;
+    text-align: center;
+    background: white;
+    padding: 0.9em 0;
 }
-
 
 /* Страница Contacts */
 .contacts_bot {
