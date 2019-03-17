@@ -195,15 +195,16 @@ img.ytmilisa {
 
 /* В разработке*/ 
 .attention {
-    background-color: #ff4f4f26;
+    background-color: #ff4f4f00;
     text-align: center;
     font-style: italic;
     color: black;
     position: relative;
-    width: auto;
+    width: max-content;
     height: auto;
     animation: bounce;
     font-size: 20px;
+    float: right;
 }
 .l-page {
     width: 1241px;
