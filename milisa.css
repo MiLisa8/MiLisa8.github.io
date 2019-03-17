@@ -262,6 +262,12 @@ h1.cineman {
     width: 17em;
     margin: auto;
 }
+h1.casama {
+    background: #2a87ff;
+    color: white;
+    width: 17em;
+    margin: auto;
+}
 
 /* Новости */
 h1.news {
