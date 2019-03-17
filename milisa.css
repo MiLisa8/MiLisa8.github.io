@@ -143,13 +143,14 @@ img.ytmilisa {
     height: auto;
 }
 
-/* Вкладки на главной */ 
+/* Вкладки (Контакты) */ 
 .tabs {
     width: 100%;
     padding: 0px;
     margin: 0 auto;
     height: 20em;
     text-align: center;
+    padding-top: 20px;
 }
 .tabs>input { 
     display:none; 
@@ -227,25 +228,32 @@ img.ytmilisa {
     padding: 0.9em 0;
 }
 
-/* Страница Contacts */
+/* Контакты */
 .contacts_bot {
     text-align: center;
-    border: 3px solid green;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    padding: 5px;
+    width: 1241px;
+    margin: auto;
+    background: white;
 }
 h1.jami {
     background: #ff4f4f;
     color: white;
+    width: 17em;
+    margin: auto;
 }
 h1.foxyleesa {
     background: #ff47c5;
     color: white;
+    width: 17em;
+    margin: auto;
 }
 h1.cineman {
     background: #2a87ff;
     color: white;
+    width: 17em;
+    margin: auto;
 }
 
 /* Новости */
