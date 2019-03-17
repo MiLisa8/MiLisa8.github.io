@@ -18,6 +18,7 @@ body {
     height: auto;
     backgrou/nd-image: url(https://randart.ru/art/JD99/wallpapers?h=1080&w=1920&q=100);
     background-image: url(img/skybg.jpg);
+    background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
