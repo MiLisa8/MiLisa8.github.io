@@ -2,16 +2,19 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <title>Новости</title>
+        <title>MiLisa</title>
         <link rel="icon" href="milisa_icon.png" type="image/x-icon">
-        <link href="main.css" rel="stylesheet">
-        <script src="main.js"></script>
+        <link href="milisa.css" rel="stylesheet">
+        <script src="milisa.js"></script>
         <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
         <script type="text/javascript">VK.init({apiId: 6900646, onlyWidgets: true});</script>
     </head>
-    <body>
-        <section class="top">
-        <header class="top-menu">
+<body>
+    <section class="top">
+        <header>
+        <div class="logo">
+            <a href="index.html"><img src="milisa_logo.png" alt="MiLisa" height="50" width="100"></a>
+        </div>
         <ul id="navbar">
             <li><a href="index.html">Главная</a></li>
             <li><a href="videos.html">Видео</a></li>
@@ -19,11 +22,8 @@
             <li><a href="contacts.html">Контакты</a></li>
             <li><a href="about.html">О нас</a></li>
         </ul>
-        <div class="logo">
-            <a href="index.html"><img class="logo" src="milisa_logo.png" alt="MiLisa" height="50" width="100"></a>
-        </div>
         </header>
-        </section>
+    </section>
         
         <!-- НОВОСТИ ПИСАТЬ СНИЗУ ВВЕРХ!!! -->
         <section class="news">
@@ -36,17 +36,17 @@
             <div class="date">
                 <p>14.03.2019</p>
             </div>
+            
+            <!-- Комментарии -->
+            <div id="vk_comments"></div>
+                <script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});</script>
         </section>
-    </body>
-    
-        <!-- Комментарии -->
-        <div id="vk_comments"></div>
-        <script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});</script>
+</body>
         <!-- Подвал -->
         <footer>
             <div class="footer-bg">
-            </div>
-            <div class="copyright">
+                <div class="copyright">
                 ©MiLisa 2018-2019
+                </div>
             </div>
         </footer>
