@@ -162,6 +162,7 @@ img.ytmilisa {
     padding: 12px;
     border-top: 1px solid black;
     background: #FFFFFF;
+    font-size: 20px;
 }
 .tabs>label {
     display: inline-block;
