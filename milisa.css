@@ -146,11 +146,12 @@ img.ytmilisa {
 /* Вкладки (Контакты) */ 
 .tabs {
     width: 100%;
-    padding: 0px;
     margin: 0 auto;
     height: 20em;
     text-align: center;
-    padding-top: 20px;
+    padding: 0.9em 0 0 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 .tabs>input { 
     display:none; 
@@ -207,6 +208,9 @@ img.ytmilisa {
 .l-page {
     width: 1241px;
     margin: auto;
+    background-color: white;
+    padding: 5px 0 0 0;
+    border-radius: 3px;
 }
 
 /* Комментарии от ВК*/ 
@@ -225,7 +229,9 @@ img.ytmilisa {
     margin: auto;
     text-align: center;
     background: white;
-    padding: 0.9em 0;
+    padding: 0.9em 0 0 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 /* Контакты */
@@ -284,7 +290,9 @@ h1.news {
     width: 1241px;
     margin: auto;
     background: white;
-    padding: 20px 0;
+    padding: 0.9em 0 0 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 h1.wim {
     background-color: darkorchid;
