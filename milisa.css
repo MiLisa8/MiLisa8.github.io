@@ -159,7 +159,7 @@ img.ytmilisa {
 .tabs>div {
     display: none;
     padding: 12px;
-    border: 1px solid #C0C0C0;
+    border-top: 1px solid black;
     background: #FFFFFF;
 }
 .tabs>label {
