@@ -208,13 +208,16 @@ img.ytmilisa {
     font-size: 20px;
     float: right;
 }
+
+
 .l-page {
     width: 1241px;
     margin: auto;
     background-color: white;
-    padding: 5px 0 0 0;
     border-radius: 3px;
 }
+
+
 
 /* Комментарии от ВК*/ 
 #page_wrap {
