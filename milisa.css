@@ -13,7 +13,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    padding: 2em 2em 4em;
+    pad/ding: 2em 2em 4em;
     width: auto;
     height: auto;
     backgrou/nd-image: url(https://randart.ru/art/JD99/wallpapers?h=1080&w=1920&q=100);
@@ -85,12 +85,10 @@ div.avatar {
 }
 #navbar {
     margin: auto;
-    padding: auto;
     text-align: center;
     background-color: green;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    width: 1241px;
     height: auto;
     display: block;
 }
@@ -110,11 +108,9 @@ div.avatar {
         box-shadow: none;
 }
 .top {
-    margin-top: -32px;
-    position: relative;
     height: auto;
-    width: 1241px;
     margin: auto;
+    max-width: 1300px;
 }
 
 /* Лого */
@@ -136,7 +132,6 @@ footer {
 
 /* Шапка */
 .header-bg {
-    width: 1241px;
     margin: auto;
 }
 img.ytmilisa {
@@ -211,10 +206,10 @@ img.ytmilisa {
 
 
 .l-page {
-    width: 1241px;
     margin: auto;
     background-color: white;
     border-radius: 3px;
+    max-width: 1300px;
 }
 
 
@@ -231,7 +226,7 @@ img.ytmilisa {
 
 /* Видео */
 .videos {
-    width: 1241px;
+    max-width: 1300px;
     margin: auto;
     text-align: center;
     background: white;
@@ -245,7 +240,7 @@ img.ytmilisa {
     text-align: center;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    width: 1241px;
+    max-width: 1300px;
     margin: auto;
     background: white;
 }
@@ -283,7 +278,7 @@ h1.news {
     margin-top: 10px;
 }
 .news {    
-    width: 1241px;
+    max-width: 1300px;
     margin: auto;
 }
 .date {
@@ -299,7 +294,7 @@ h1.news {
 }
 /* Страница About */
 .about {
-    width: 1241px;
+    max-width: 1300px;
     margin: auto;
     background: white;
     padding: 0.9em 0 0 0;
