@@ -356,6 +356,7 @@ body {
     }
 #navbar a {
     font-size: 14px;
+    padding: 10px;
 }
 .logo {
     display: none;
@@ -401,5 +402,17 @@ footer {
 }
 p.copy {
     border-top: 1px solid black;
+}
+}
+/*** Мобильные версии 320x568***/ 
+@media screen and (min-width:240px) and (max-width:568px) {
+#navbar a {
+    font-size: 9px;
+}
+}
+/*** Мобильные версии 320x568***/ 
+@media screen and (min-width:768px) and (max-width:1024px) {
+.logo {
+    display: none;
 }
 }
