@@ -343,4 +343,8 @@ h1.wim1 {
     margin: none;
     font-size: 15px;
 }
+#navbar {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
 }
