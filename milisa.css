@@ -329,9 +329,14 @@ h1.wim1 {
     padding: 0 55px;
     text-align: center;
 }
-
+p.copy {
+    margin: 0;
+}
 /*** Мобильные версии ***/ 
 @media screen and (min-width:240px) and (max-width:720px) {
+body {
+    background: none;
+    }
 #navbar a {
     font-size: 8px;
 }
@@ -371,5 +376,8 @@ h1.jami, h1.foxyleesa, h1.cineman, h1.casama {
 }
 h1.wim1 {
     font-size: 20px;
+}
+footer {
+    color: black;
 }
 }
