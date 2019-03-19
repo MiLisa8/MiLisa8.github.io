@@ -348,4 +348,7 @@ h1.wim1 {
 h1.jami, h1.foxyleesa, h1.cineman, h1.casama {
     font-size: 20px;
 }
+.tabs>input:checked + label {
+    border-radius: 0px;
+}
 }
