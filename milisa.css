@@ -140,6 +140,12 @@ img.ytmilisa {
     height: auto;
 }
 
+
+img.ytwe {
+    display: none;
+}
+
+
 /* Вкладки (Контакты) */ 
 .tabs {
     width: 100%;
@@ -204,6 +210,7 @@ img.ytmilisa {
     font-size: 20px;
     float: right;
 }
+
 
 
 .l-page {
