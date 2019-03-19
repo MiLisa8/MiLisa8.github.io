@@ -154,6 +154,7 @@ img.ytwe {
     padding: 0.9em 0 0 0;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
+    min-height: 20em;
 }
 .tabs>input { 
     display:none; 
@@ -251,28 +252,28 @@ img.ytwe {
 h1.jami {
     background: #ff4f4f;
     color: white;
-    width: 17em;
+    width: max-content;
     margin: auto;
     max-width: 100%;
 }
 h1.foxyleesa {
     background: #ff47c5;
     color: white;
-    width: 17em;
+    width: max-content;
     margin: auto;
     max-width: 100%;
 }
 h1.cineman {
     background: #2a87ff;
     color: white;
-    width: 17em;
+    width: max-content;
     margin: auto;
     max-width: 100%;
 }
 h1.casama {
     background: #beca22;
     color: white;
-    width: 17em;
+    width: max-content;
     margin: auto;
     max-width: 100%;
 }
