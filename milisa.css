@@ -410,7 +410,7 @@ p.copy {
     font-size: 9px;
 }
 }
-/*** Мобильные версии 320x568***/ 
+/*** Мобильные версии 768x1024***/ 
 @media screen and (min-width:768px) and (max-width:1024px) {
 .logo {
     display: none;
