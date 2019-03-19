@@ -338,6 +338,13 @@ h1.wim1 {
 .logo {
     display: none;
 }
+h1.h1 {
+    font-size: 20px;
+    border-radius: 0;
+}
+.attention {
+    max-width: -webkit-fill-available;
+}
 .tabs>label{
     font-size: 15px;
     box-shadow: none;
