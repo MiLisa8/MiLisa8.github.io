@@ -277,6 +277,11 @@ h1.casama {
 }
 
 /* Новости */
+.news_block {
+    background: white;
+    padding-top: 1px;
+    margin-top: 10px;
+}
 h1.news {
     background-color: cornflowerblue;
     color: white;
@@ -376,6 +381,12 @@ h1.jami, h1.foxyleesa, h1.cineman, h1.casama {
 }
 h1.wim1 {
     font-size: 20px;
+}
+h1.news {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    font-size: 15px;
 }
 footer {
     color: black;
