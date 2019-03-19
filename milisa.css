@@ -311,7 +311,9 @@ h1.news {
 h1.wim {
     background-color: darkorchid;
     color: white;
+    max-width: max-content;
     margin: auto;
+    padding: 6px;
 }
 h1.wim1 {
     background-color: #cc8632;
@@ -349,5 +351,15 @@ h1.jami, h1.foxyleesa, h1.cineman, h1.casama {
 }
 .tabs>input:checked + label {
     border-radius: 0px;
+}
+.wim {
+    padding: 05px;
+}
+.wim_con {
+    padding: 05px;
+    text-align: center;
+}
+h1.wim1 {
+    font-size: 20px;
 }
 }
