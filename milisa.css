@@ -182,8 +182,6 @@ img.ytwe {
 }
 .tabs>input:checked + label {
     color: white;
-    border: 1px solid #008000;
-    border-bottom: 1px solid #FFFFFF;
     background: #ff4f4f;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
