@@ -345,6 +345,9 @@ h1.h1 {
 .attention {
     max-width: -webkit-fill-available;
 }
+.tabs {
+    height: max-content;
+}
 .tabs>label{
     font-size: 15px;
     box-shadow: none;
