@@ -100,6 +100,7 @@ div.avatar {
     text-decoration: none;
     transition: 0.2s;
     box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.10);
+    font-size: 20px;
 }
 #navbar a:hover {
     color: yellow;
@@ -109,6 +110,10 @@ div.avatar {
     height: auto;
     margin: auto;
     max-width: 1300px;
+    padding: 10px;
+    background: #1d3073;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 /* Лого */
@@ -211,6 +216,7 @@ img.ytwe {
     background-color: white;
     border-radius: 3px;
     max-width: 1300px;
+    padding: 10px;
 }
 
 
@@ -234,6 +240,7 @@ img.ytwe {
     padding: 0.9em 0 0 0;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
+    padding: 10px;
 }
 
 /* Контакты */
@@ -276,14 +283,15 @@ h1.casama {
 
 /* Новости */
 .news_block {
-    background: white;
+    background: cornflowerblue;
     padding-top: 1px;
     margin-top: 10px;
     border-radius: 3px;
+    padding: 10px;
 }
 h1.news {
-    background-color: cornflowerblue;
-    color: white;
+    background-color: none;
+    color: black;
     max-width: max-content;
     margin: auto;
     margin-top: 10px;
@@ -291,6 +299,8 @@ h1.news {
 .news {    
     max-width: 1300px;
     margin: auto;
+    padding: 10px;
+    background: white;
 }
 .date {
     text-align: center;
@@ -342,7 +352,7 @@ body {
     background: none;
     }
 #navbar a {
-    font-size: 8px;
+    font-size: 20px;
 }
 .logo {
     display: none;
