@@ -85,7 +85,7 @@ div.avatar {
 #navbar {
     margin: auto;
     text-align: center;
-    background-color: green;
+    background-color: #1d3073;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: auto;
@@ -103,8 +103,7 @@ div.avatar {
 }
 #navbar a:hover {
     color: yellow;
-    background-color: darkgreen;
-        box-shadow: none;
+    background-color: #00133d;
 }
 .top {
     height: auto;
