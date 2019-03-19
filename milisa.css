@@ -380,4 +380,7 @@ h1.wim1 {
 footer {
     color: black;
 }
+p.copy {
+    border-top: 3px solid black;
+}
 }
