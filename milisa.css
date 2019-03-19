@@ -333,10 +333,14 @@ h1.wim1 {
 
 /*** Мобильные версии ***/ 
 @media screen and (min-width:240px) and (max-width:720px) {
-    #navbar a {
+#navbar a {
     font-size: 8px;
 }
-    .logo {
+.logo {
     display: none;
+}
+.tabs>label{
+    margin: none;
+    font-size: 15px;
 }
 }
