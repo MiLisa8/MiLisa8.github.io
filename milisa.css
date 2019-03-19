@@ -281,6 +281,7 @@ h1.casama {
     background: white;
     padding-top: 1px;
     margin-top: 10px;
+    border-radius: 3px;
 }
 h1.news {
     background-color: cornflowerblue;
