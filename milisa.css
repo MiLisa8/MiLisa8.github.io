@@ -246,11 +246,12 @@ img.ytwe {
 /* Контакты */
 .contacts_bot {
     text-align: center;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
     max-width: 1300px;
     margin: auto;
     background: white;
+    padding: 10px;
 }
 h1.jami {
     background: #ff4f4f;
@@ -321,6 +322,7 @@ h1.news {
     padding: 0.9em 0 0 0;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
+    padding: 10px;
 }
 h1.wim {
     background-color: darkorchid;
