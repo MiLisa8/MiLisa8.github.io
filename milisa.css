@@ -339,9 +339,13 @@ h1.wim1 {
 }
 .tabs>label{
     font-size: 15px;
+    box-shadow: none;
 }
 #navbar {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+}
+h1.jami, h1.foxyleesa, h1.cineman, h1.casama {
+    font-size: 20px;
 }
 }
