@@ -35,7 +35,6 @@ h1.h1 {
     text-align: center;
     width: auto;
     height: auto;
-    float: left;
     margin-top: 1.5em;
 }
 h1 {
@@ -208,7 +207,6 @@ img.ytwe {
     height: auto;
     animation: bounce;
     font-size: 20px;
-    float: right;
 }
 
 
