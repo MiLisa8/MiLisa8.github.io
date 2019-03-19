@@ -333,5 +333,7 @@ h1.wim1 {
 
 /*** Мобильные версии ***/ 
 @media screen and (min-width:240px) and (max-width:720px) {
-    
+    #navbar a {
+    font-size: 8px;
+}
 }
