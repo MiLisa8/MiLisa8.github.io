@@ -168,14 +168,12 @@ img.ytwe {
 .tabs>label {
     display: inline-block;
     padding: 7px;
-    margin: 0 -5px -1px 0;
     text-align: center;
     color: #000000;
     border: 1px solid #00800033;
     background: #f5deb300;
     cursor: pointer;
     transition: 0.2s;
-    margin-left: 0.5em;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     font-size: 21px;
@@ -340,7 +338,6 @@ h1.wim1 {
     display: none;
 }
 .tabs>label{
-    margin: none;
     font-size: 15px;
 }
 #navbar {
