@@ -336,4 +336,7 @@ h1.wim1 {
     #navbar a {
     font-size: 8px;
 }
+    .logo {
+    display: none;
+}
 }
