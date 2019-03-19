@@ -284,11 +284,12 @@ h1.casama {
 
 /* Новости */
 .news_block {
-    background: cornflowerblue;
+    background: white;
     padding-top: 1px;
     margin-top: 10px;
     border-radius: 3px;
     padding: 10px;
+    text-align: center;
 }
 h1.news {
     background-color: none;
@@ -373,10 +374,6 @@ h1.h1 {
     font-size: 15px;
     box-shadow: none;
 }
-#navbar {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
 h1.jami, h1.foxyleesa, h1.cineman, h1.casama {
     font-size: 20px;
 }
@@ -391,7 +388,7 @@ h1.jami, h1.foxyleesa, h1.cineman, h1.casama {
     text-align: center;
 }
 h1.wim1 {
-    font-size: 20px;
+    font-size: 12px;
 }
 h1.news {
     background-color: white;
