@@ -297,6 +297,7 @@ h1.news {
     max-width: max-content;
     margin: auto;
     margin-top: 10px;
+    font-size: 31px;
 }
 .news {    
     max-width: 1300px;
