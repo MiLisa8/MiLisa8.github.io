@@ -355,14 +355,14 @@ p.copy {
 body {
     background: none;
     }
+.logo {
+    display: none;
+}
 /*** Мобильные версии ***/ 
 @media screen and (min-width:240px) and (max-width:720px) {
 #navbar a {
     font-size: 14px;
     padding: 10px;
-}
-.logo {
-    display: none;
 }
 h1.h1 {
     font-size: 20px;
