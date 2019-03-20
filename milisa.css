@@ -101,6 +101,7 @@ div.avatar {
     transition: 0.2s;
     box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.10);
     font-size: 20px;
+    font-family: 'handle', cursive;
 }
 #navbar a:hover {
     color: yellow;
@@ -208,6 +209,7 @@ img.ytwe {
     height: auto;
     animation: bounce;
     font-size: 16px;
+    font-family: 'handle', cursive;
 }
 
 
