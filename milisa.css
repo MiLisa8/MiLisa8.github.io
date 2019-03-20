@@ -203,10 +203,10 @@ img.ytwe {
     font-style: italic;
     color: black;
     position: relative;
-    width: max-content;
+    width: auto;
     height: auto;
     animation: bounce;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
@@ -350,11 +350,13 @@ h1.wim1 {
 p.copy {
     margin: 0;
 }
-/*** Мобильные версии ***/ 
-@media screen and (min-width:240px) and (max-width:720px) {
+/*** Фон на мобильных ***/ 
+@media screen and (min-width:240px) and (max-width:1366px){
 body {
     background: none;
     }
+/*** Мобильные версии ***/ 
+@media screen and (min-width:240px) and (max-width:720px) {
 #navbar a {
     font-size: 14px;
     padding: 10px;
@@ -390,7 +392,7 @@ h1.jami, h1.foxyleesa, h1.cineman, h1.casama {
     text-align: center;
 }
 h1.wim1 {
-    font-size: 12px;
+    font-size: 20px;
 }
 h1.news {
     background-color: white;
