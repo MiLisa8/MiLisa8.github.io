@@ -102,6 +102,7 @@ div.avatar {
     box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.10);
     font-size: 20px;
     font-family: 'handle', cursive;
+    border-radius: 5px;
 }
 #navbar a:hover {
     color: yellow;
@@ -115,6 +116,7 @@ div.avatar {
     background: #1d3073;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    margin-top: 1em;
 }
 
 /* Лого */
@@ -411,6 +413,9 @@ p.copy {
 @media screen and (min-width:240px) and (max-width:568px) {
 #navbar a {
     font-size: 9px;
+}
+.top {
+    margin-top: 0em;
 }
 }
 /*** Мобильные версии 768x1024***/ 
