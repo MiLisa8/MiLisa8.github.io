@@ -363,6 +363,9 @@ body {
 .logo {
     display: none;
 }
+.top {
+    margin-top: 0em;
+}
 /*** Мобильные версии ***/ 
 @media screen and (min-width:240px) and (max-width:720px) {
 #navbar a {
@@ -413,9 +416,6 @@ p.copy {
 @media screen and (min-width:240px) and (max-width:568px) {
 #navbar a {
     font-size: 9px;
-}
-.top {
-    margin-top: 0em;
 }
 }
 /*** Мобильные версии 768x1024***/ 
