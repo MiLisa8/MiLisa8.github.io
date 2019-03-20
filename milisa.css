@@ -123,16 +123,17 @@ div.avatar {
 }
 /* Подвал */
 footer {
-    padding: 0;
     text-align: center;
     line-height: 2em;
-    background: #ffffff00;
-    max-width: 1300px;
+    background: white;
+    max-width: max-content;
     margin: auto;
+    color: black;
+    width: auto;
+    padding: 0 7px;
+    margin-top: 3px;
     border-radius: 3px;
-    color: white;
 }
-
 /* Шапка */
 .header-bg {
     margin: auto;
@@ -399,9 +400,6 @@ h1.news {
     color: black;
     margin-top: 10px;
     font-size: 21px;
-}
-footer {
-    color: black;
 }
 p.copy {
     border-top: 1px solid black;
