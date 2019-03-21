@@ -36,6 +36,7 @@ h1.h1 {
     width: auto;
     height: auto;
     text-shadow: 1px 3px 1px #ffffff;
+    clear: both;
 }
 h1 {
     padding: 5px;
@@ -152,7 +153,18 @@ img.ytwe {
     display: none;
 }
 
-
+/* Локальное время */ 
+#time {
+    background: #ffffff;
+    max-width: 4em;
+    padding: 5px;
+    color: black;
+    width: max-content;
+    float: right;
+    margin-bottom: 7px;
+    position: absolute;
+    border-bottom-right-radius: 5px;
+}
 /* Вкладки (Контакты) */ 
 .tabs {
     width: 100%;
