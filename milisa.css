@@ -87,7 +87,7 @@ div.avatar {
 #navbar {
     margin: auto;
     text-align: center;
-    background-color: #1d3073;
+    background-color: #ff75a0; /*#1d3073;*/
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: auto;
@@ -115,7 +115,7 @@ div.avatar {
     margin: auto;
     max-width: 1300px;
     padding: 10px;
-    background: #1d3073;
+    background-color: #ff75a0;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     margin-top: 1em;
@@ -232,7 +232,8 @@ img.ytwe {
 .l-page {
     margin: auto;
     background-color: white;
-    border-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
     max-width: 1300px;
     padding: 10px;
 }
