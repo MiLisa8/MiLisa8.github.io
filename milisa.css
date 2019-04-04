@@ -79,9 +79,11 @@
     cursor: pointer;
     transform: scale(1.5);
 }
+.iw-close:active {
+    transform: scale(1.3);
+}
 
 /*CSS для блока с текстом*/
-
 .iw-modal-text {
   padding: 15px 20px; /*внутренний отступ*/
 }
