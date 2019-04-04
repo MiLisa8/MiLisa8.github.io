@@ -182,7 +182,6 @@ img.ytwe {
     display: flex;
 }
 .tabs>div {
-    display: n one;
     padding: 12px;
     background: inherit;
     font-size: 20px;
@@ -272,9 +271,7 @@ p.ctxt {
     margin: auto;
     background: white;
     background-image: url(img/bg_contacts.jpg);
-    margin-top: 15em;
     padding-top: 1em;
-    border-top: 6em solid white;
     border-bottom: 6em solid white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -328,12 +325,15 @@ h1.news {
     margin: auto;
     margin-top: 10px;
     font-size: 30px;
+    font-family: monospace;
 }
-.news {    
-    max-width: 1300px;
+.news {
+    max-width: 100%;
     margin: auto;
     padding: 10px;
     background: white;
+    width: auto;
+    display: block;
 }
 .date {
     text-align: center;
