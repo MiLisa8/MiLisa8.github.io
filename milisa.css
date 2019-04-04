@@ -1,8 +1,97 @@
-<style>
-   @font-face {
-    font-family: Pompadur; /* Гарнитура шрифта */
-    src: url(fonts/pompadur.ttf); /* Путь к файлу со шрифтом */
+/*CSS-свойства для заднего фона*/
+.iw-modal {
+	opacity: 0; /*изначально этот блок должен быть прозрачным*/ 
+	background: rgba(0,0,0,0.7); /*задаём цвет фона*/
+	pointer-events: none; /*делаем чтобы по элементу нельзя было кликнуть когда он прозрачный*/
+ 	position: fixed; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+	transition: all 0.5s ease;
+    margin: 0;
+    padding: 0;
+}
+.iw-modal-btn {
+    float: right;
+    background: none;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-right: 1em;
+    margin-top: 0.3em;
+    color: white;
+    font-family: monospace;
+    font-size: 23px;
+}
+.iw-modal:target {
+    opacity: 1; /*при клике блок становится видимым*/
+	pointer-events: auto; /*теперь по блоку можно кликать мышкой*/
+    overflow-y: auto; /*прокрутка по вертикли страницы*/
+}
+
+.iw-modal-wrapper {
+	margin:auto; /*выравниваем модальное окно по центру по горизонтали*/
+	margin-top:25vh; /*отступ сверху можно задавать в px, % или vh*/
+}
+
+/*CSS-свойства для блока, содержащего контент модального окна */ 
+.iw-CSS-modal-inner {
+    position: relative;
+    background: #fff; /*цвет фона*/
+    border: 1px solid #ccc; /*цвет и толщина рамки*/
+    border-radius: 25px; /*радиус скругления углов*/
+
+}
+
+/*CSS-свойства заголовка модального окна */
+.iw-modal-header {
+    padding: 15px;/*внутренний отступ*/
+    background:#f1f1f1;/*цвет фона*/
+	position:relative;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.iw-modal-title {
+	font-size: 23px; /*размер шрифта*/
+	color:#555; /*цвет шрифта*/
+	font-weight:bold; /*жирность шрифта*/
+    line-height: 1.2; /*высота строки*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*CSS для кнопки закрытия*/
+.iw-close {
+    position:absolute;
+	top:6px; /*отступ сверху*/
+	right:17px; /*отступ справа*/
+    font-size: 24px; /*размер шрифта*/
+    color: #555; /*цвет шрифта*/
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.iw-close:hover, .iw-close:focus {
+    color: #f00; /*цвет шрифта при наведении*/
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+/*CSS для блока с текстом*/
+
+.iw-modal-text {
+  padding: 15px 20px; /*внутренний отступ*/
+}
+
+/**MEDIA**/
+@media (min-width: 550px) {
+  .iw-modal-wrapper {
+      max-width: 500px;
    }
+}
 /*** Изменение полосы прокрутки ***/ 
 ::-webkit-scrollbar{ width: 13px; /* 1 - вертикальный скроллбар */} 
 ::-webkit-scrollbar:horizontal{ height: auto; /* 1 - горизонтальный скроллбар */} 
@@ -104,6 +193,7 @@ div.avatar {
     border-top-right-radius: 25px;
     height: auto;
     display: block;
+    max-width: max-content;
 }
 #navbar a {
     color: white;
@@ -159,10 +249,18 @@ img.ytmilisa {
     width: 100%;
     height: auto;
 }
-
-
 img.ytwe {
     display: none;
+}
+
+/* Контакты в топе меню */ 
+#to_contact {
+    float: right;
+    background: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-right: 1em;
+    margin-top: 1em;
 }
 
 /* Локальное время */ 
