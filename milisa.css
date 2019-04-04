@@ -272,7 +272,7 @@ p.ctxt {
     margin: auto;
     background: white;
     background-image: url(img/bg_contacts.jpg);
-    margin-top: 22em;
+    margin-top: 15em;
     padding-top: 1em;
     border-top: 6em solid white;
     border-bottom: 6em solid white;
@@ -390,12 +390,12 @@ body {
 .logo {
     display: none;
 }
-/*** Мобильные версии ***/ 
-@media screen and (min-width:240px) and (max-width:720px) {
 .top {
     margin-top: 0em;
     background-color: #061443;
 }
+/*** Мобильные версии ***/ 
+@media screen and (min-width:240px) and (max-width:720px) {
 .tabs {
     display: block;
     width: auto;
