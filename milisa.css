@@ -33,16 +33,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.h1 {
-    background: #041744;
+    background: #000000;
     padding: 5px;
     border-radius: 7px;
     position: relative;
     text-align: center;
     width: auto;
     height: auto;
-    text-shadow: 1px 3px 1px #dc9eb5;
+    text-shadow: 1px 3px 1px #0f00ff;
     clear: both;
     color: white;
+    margin: auto;
+    max-width: max-content;
+    font-size: xx-large;
+    transition: 0.3s;
+}
+h1.h1:hover {
+    text-shadow: none;
 }
 h1 {
     padding: 5px;
@@ -133,14 +140,16 @@ div.avatar {
 footer {
     text-align: center;
     line-height: 2em;
-    background: white;
+    background: black;
     max-width: max-content;
     margin: auto;
-    color: black;
+    color: white;
     width: auto;
     padding: 0 7px;
-    margin-top: 3px;
+    margin-top: 3em;
+    margin-bottom: 1em;
     border-radius: 3px;
+    font-family: monospace;
 }
 /* Шапка */
 .header-bg {
@@ -167,7 +176,17 @@ img.ytwe {
     position: absolute;
     border-bottom-right-radius: 5px;
 }
-/* Вкладки (Контакты) */ 
+/* Контакты */ 
+.activeh1 {
+    background: yellow;
+    margin: auto;
+    max-width: max-content;
+    color: black;
+    font-family: monospace;
+    font-size: 40px;
+    margin-top: 2em;
+    border-radius: 3px;
+}
 .tabs {
     width: max-content;
     margin: 0 auto;
@@ -177,7 +196,7 @@ img.ytwe {
     border-radius: 25px;
     min-height: 20em;
     background: white;
-    margin-top: 5em;
+    margin-top: 3em;
     margin-bottom: 5em;
     display: flex;
 }
@@ -214,7 +233,7 @@ p.ctxt {
 
 /* В разработке*/ 
 .attention {
-    background-color: #ff4f4f00;
+    background-color: yellow;
     text-align: center;
     font-style: italic;
     color: black;
@@ -244,11 +263,8 @@ p.ctxt {
 #page_wrap {
     width: 1241px;
     margin: auto;
+    text-align: center;
 }
-
-
-
-
 
 /* Видео */
 .videos {
@@ -271,10 +287,10 @@ p.ctxt {
     margin: auto;
     background: white;
     background-image: url(img/bg_contacts.jpg);
-    padding-top: 1em;
-    border-bottom: 6em solid white;
+    padding: 10px;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 5px solid white;
 }
 h1.jami {
     background: #000000;
@@ -312,11 +328,11 @@ h1.casama {
 /* Новости */
 .news_block {
     background: white;
-    padding-top: 1px;
-    margin-top: 10px;
     border-radius: 3px;
     padding: 10px;
     text-align: center;
+    margin: auto;
+    max-width: max-content;
 }
 h1.news {
     background-color: none;
@@ -408,10 +424,14 @@ body {
 }
 /*** Мобильные версии ***/ 
 @media screen and (min-width:240px) and (max-width:720px) {
+.activeh1 {
+    font-size: 25px;
+}
 .tabs {
     display: block;
     width: auto;
     border-radius: 0;
+    margin-top: 1em;
 }
 p.ctxt {
     height: auto;
