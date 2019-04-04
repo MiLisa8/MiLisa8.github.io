@@ -268,14 +268,12 @@ p.ctxt {
 
 /* Видео */
 .videos {
-    max-width: 1300px;
+    max-width: 100%;
     margin: auto;
-    text-align: center;
     background: white;
-    padding: 0.9em 0 0 0;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    padding: 10px;
+    width: max-content;
+    padding-top: 2em;
+    text-align: center;
 }
 
 /* Контакты */
