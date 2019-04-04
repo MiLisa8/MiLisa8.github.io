@@ -403,6 +403,9 @@ body {
     margin-top: 0em;
     background-color: #061443;
 }
+.tabs {
+    display: block;
+}
 /*** Мобильные версии ***/ 
 @media screen and (min-width:240px) and (max-width:720px) {
 .tabs {
