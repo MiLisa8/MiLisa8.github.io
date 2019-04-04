@@ -151,7 +151,10 @@ h1 {
     height: auto;
     background: wheat;
 }
-
+.welcome {
+    margin: 30em;
+    background: none;
+}
 a {
     color: #0083e8;
 }
@@ -177,9 +180,6 @@ samp {
     }
 }
 
-div.avatar {
-    text-align: center;
-}
 /* Верхнее меню */
 #navbar {
     margin: 0;
@@ -216,11 +216,10 @@ div.avatar {
     height: auto;
     margin: auto;
     max-width: 100%;
-    padding: 10px;
+    padding: 3px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     margin-top: 1em;
-    margin-bottom: 1em;
 }
 
 /* Лого */
@@ -246,10 +245,12 @@ footer {
 /* Шапка */
 .header-bg {
     margin: auto;
+    background: white;
+    position: relative;
+    top: 4px;
 }
 img.ytmilisa {
     width: 100%;
-    height: auto;
 }
 img.ytwe {
     display: none;
@@ -263,18 +264,6 @@ img.ytwe {
     border-radius: 3px;
     margin-right: 1em;
     margin-top: 1em;
-}
-
-/* Локальное время */ 
-#time {
-    background: #ffffff;
-    max-width: 4em;
-    padding: 5px;
-    color: black;
-    width: max-content;
-    float: right;
-    position: absolute;
-    border-bottom-right-radius: 5px;
 }
 /* Контакты */ 
 .activeh1 {
@@ -349,11 +338,11 @@ p.ctxt {
 
 .l-page {
     margin: auto;
-    background-color: white;
+    background-color: none;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     max-width: 100%;
-    padding-top: 1em;
+    padding-top: 0em;
     padding-bottom: 4px;
 }
 
@@ -508,7 +497,7 @@ p.copy {
 /*** Фон на мобильных ***/ 
 @media screen and (min-width:240px) and (max-width:1366px){
 body {
-    background: none;
+    background: no ne;
     }
 .logo {
     display: none;
@@ -520,8 +509,20 @@ body {
 .tabs {
     display: block;
 }
+img.ytmilisa {
+    width: 100%;
+    height: auto;
+}
+.welcome {
+    margin: 1em 0 0 0;
+    background: none;
+}
 /*** Мобильные версии ***/ 
 @media screen and (min-width:240px) and (max-width:720px) {
+.iw-modal-btn {
+    font-size: 9px;
+    margin-top: 0.7em;
+}
 .activeh1 {
     font-size: 25px;
 }
@@ -577,6 +578,10 @@ p.copy {
 }
 /*** Мобильные версии 320x568***/ 
 @media screen and (min-width:240px) and (max-width:568px) {
+.iw-modal-btn {
+    font-size: 9px;
+    margin-top: 0.0em;
+}
 #navbar a {
     font-size: 9px;
 }
