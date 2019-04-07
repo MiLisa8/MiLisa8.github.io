@@ -296,6 +296,7 @@ img.ytwe {
     background: inherit;
     font-size: 20px;
     border-radius: inherit;
+    max-width: 22em;
 }
 .tabs>input:checked + label {
     color: white;
@@ -348,15 +349,6 @@ p.ctxt {
     padding-bottom: 4px;
 }
 
-
-
-/* Комментарии от ВК*/ 
-#page_wrap {
-    width: 1241px;
-    margin: auto;
-    text-align: center;
-}
-
 /* Видео */
 .videos {
     max-width: 100%;
@@ -367,7 +359,94 @@ p.ctxt {
     text-align: center;
 }
 
-/* Контакты */
+/* Участники */
+.other_memberH2:first-letter {
+    color: red;
+}
+.h1all {
+    background: white;
+    text-shadow: 1px 3px 1px #041fff;
+    color: #ff0000;
+    transition: 0.3s;
+}
+.h1all:hover {
+    background: black;
+    text-shadow: none;
+    color: yellow;
+}
+.other_member {
+    text-align: center;
+    margin: auto;
+    height: 17em;
+    width: 20em;
+    border: 1px solid black;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 25px;
+}
+.other_members {
+    background: white;
+    display: flex;
+    margin: auto;
+    width: max-content;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 25px;
+}
+.cmtxt {
+    padding: 5px;
+    font-size: 16px;
+}
+.all_members {
+    display: flex;
+    background: white;
+    padding: 2em;
+    width: max-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 3em;
+    border-radius: 25px;
+}
+.memberH4 {
+    background: white;
+    max-width: max-content;
+    margin: auto;
+    padding: 5px;
+    margin-top: 1em;
+    border-radius: 3px;
+}
+.member {
+    text-align: center;
+    margin: auto;
+    height: 20em;
+    width: 20em;
+    border: 1px solid black;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 25px;
+}
+.memberH2 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    max-width: max-content;
+    background: white;
+    padding: 5px;
+    border-radius: inherit;
+}
+.memberH2:first-letter {
+    color: red;
+}
+.members_button {
+    background: white;
+    padding: 5px;
+    border-radius: 3px;
+    color: black;
+    font-size: 23px;
+    margin: auto;
+    position: relative;
+    top: -2em;
+}
 .contacts_bot {
     text-align: center;
     border-bottom-left-radius: 3px;
@@ -384,7 +463,6 @@ p.ctxt {
 h1.jami {
     background: #000000;
     color: white;
-    width: max-content;
     margin: auto;
     max-width: 100%;
     font-family: monospace;
@@ -405,13 +483,6 @@ h1.cineman {
     max-width: 100%;
     font-family: monospace;
     border-radius: 3px;
-}
-h1.casama {
-    background: #beca22;
-    color: white;
-    width: max-content;
-    margin: auto;
-    max-width: 100%;
 }
 
 /* Новости */
