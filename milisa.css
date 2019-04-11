@@ -380,19 +380,37 @@ p.ctxt {
     margin: auto;
     height: 17em;
     width: 20em;
-    border: 1px solid black;
     margin-left: 0.5em;
     margin-right: 0.5em;
-    border-radius: 25px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: white;
+    padding: 0.5em;
+    transition: 0.3s;
+}
+.other_member:hover {
+    border-radius: 5px;
+    color: black;
 }
 .other_members {
-    background: white;
+    background: none;
     display: flex;
     margin: auto;
     width: max-content;
     padding: 1em;
     margin-top: 2em;
-    border-radius: 25px;
+}
+.other_memberH2 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    max-width: max-content;
+    background: black;
+    padding: 5px;
+    color: white;
+    border-radius: 20px;
 }
 .cmtxt {
     padding: 5px;
@@ -400,13 +418,13 @@ p.ctxt {
 }
 .all_members {
     display: flex;
-    background: white;
-    padding: 2em;
+    background: none;
+    padding: 0.5em;
     width: max-content;
     text-align: center;
     margin: auto;
     margin-top: 3em;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 .memberH4 {
     background: white;
@@ -421,19 +439,29 @@ p.ctxt {
     margin: auto;
     height: 20em;
     width: 20em;
-    border: 1px solid black;
     margin-left: 0.5em;
     margin-right: 0.5em;
-    border-radius: 25px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: white;
+    padding: 0.5em;
+    transition: 0.3s;
+}
+.member:hover {
+    border-radius: 5px;
+    color: black;
 }
 .memberH2 {
     width: auto;
     height: auto;
     margin: auto;
     max-width: max-content;
-    background: white;
+    background: black;
     padding: 5px;
     border-radius: inherit;
+    color: white;
 }
 .memberH2:first-letter {
     color: red;
