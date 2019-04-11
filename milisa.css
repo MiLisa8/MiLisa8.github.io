@@ -280,6 +280,7 @@ img.ytwe {
 }
 .tabs {
     width: max-content;
+    max-width: 100%;
     margin: 0 auto;
     height: auto;
     text-align: center;
@@ -579,8 +580,19 @@ body {
     margin-top: 0em;
     background-color: #061443;
 }
-.tabs {
-    display: block;
+.tabs>div {
+    padding: 12px;
+    background: inherit;
+    font-size: 10px;
+    border-radius: inherit;
+    max-width: 22em;
+}
+.jH4 {
+    height: 4em;    
+}
+img.me_ava {
+    height: 80px;
+    width: 80px;
 }
 img.ytmilisa {
     width: 100%;
@@ -589,6 +601,7 @@ img.ytmilisa {
 .welcome {
     margin: 1em 0 0 0;
     background: none;
+}   
 }
 /*** Мобильные версии ***/ 
 @media screen and (min-width:240px) and (max-width:720px) {
@@ -600,13 +613,15 @@ img.ytmilisa {
     font-size: 25px;
 }
 .tabs {
-    display: block;
     width: auto;
     border-radius: 0;
     margin-top: 1em;
 }
+.tabs>div {
+    padding: 2px;
+}
 p.ctxt {
-    height: auto;
+    height: 80px;
 }
 #navbar a {
     font-size: 14px;
@@ -623,8 +638,8 @@ h1.h1 {
     font-size: 15px;
     box-shadow: none;
 }
-h1.jami, h1.foxyleesa, h1.cineman, h1.casama {
-    font-size: 20px;
+h1.jami {
+    font-size: 9px;
 }
 .tabs>input:checked + label {
     border-radius: 0px;
