@@ -588,7 +588,7 @@ body {
     max-width: 22em;
 }
 .jH4 {
-    height: 4em;    
+    height: 4em;
 }
 img.me_ava {
     height: 80px;
@@ -620,8 +620,11 @@ img.ytmilisa {
 .tabs>div {
     padding: 2px;
 }
+.jH4 {
+    margin-top: 4em;
+}
 p.ctxt {
-    height: 80px;
+    height: 100px;
 }
 #navbar a {
     font-size: 14px;
@@ -639,7 +642,8 @@ h1.h1 {
     box-shadow: none;
 }
 h1.jami {
-    font-size: 9px;
+    font-size: 7px;
+    min-height: 3em;
 }
 .tabs>input:checked + label {
     border-radius: 0px;
